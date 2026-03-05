@@ -1,10 +1,8 @@
-﻿namespace ConsoleApp1
+﻿int i = 1;
+
+do
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
-}
+	Console.WriteLine(i);
+	i++;
+} while (i <= 5);
+    
